@@ -1,0 +1,180 @@
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "LineString", 
+                "coordinates": [
+                    [
+                        56.47666383848121, 
+                        -2.9487438390554077
+                    ], 
+                    [
+                        56.475163260532625, 
+                        -3.009619712934528
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "id": 0, 
+            "properties": {
+                "date": "1914-11-23"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    56.475163260532625, 
+                    -3.009619712934528
+                ]
+            }, 
+            "type": "Feature", 
+            "id": 1, 
+            "properties": {
+                "date": "1914-11-23", 
+                "intensity": 24
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "LineString", 
+                "coordinates": [
+                    [
+                        56.478118367000626, 
+                        -3.0333025073567015
+                    ], 
+                    [
+                        56.477437018331486, 
+                        -2.936441137998503
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "id": 2, 
+            "properties": {
+                "date": "1914-01-21"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    56.477437018331486, 
+                    -2.936441137998503
+                ]
+            }, 
+            "type": "Feature", 
+            "id": 3, 
+            "properties": {
+                "date": "1914-01-21", 
+                "intensity": 73
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "LineString", 
+                "coordinates": [
+                    [
+                        56.472721581557934, 
+                        -2.951262986026306
+                    ], 
+                    [
+                        56.4764764344544, 
+                        -3.0207230542891463
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "id": 4, 
+            "properties": {
+                "date": "1917-06-27"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    56.4764764344544, 
+                    -3.0207230542891463
+                ]
+            }, 
+            "type": "Feature", 
+            "id": 5, 
+            "properties": {
+                "date": "1917-06-27", 
+                "intensity": 59
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "LineString", 
+                "coordinates": [
+                    [
+                        56.47411006124516, 
+                        -3.005858207365217
+                    ], 
+                    [
+                        56.47558870557055, 
+                        -3.0181644818997304
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "id": 6, 
+            "properties": {
+                "date": "1914-04-17"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    56.47558870557055, 
+                    -3.0181644818997304
+                ]
+            }, 
+            "type": "Feature", 
+            "id": 7, 
+            "properties": {
+                "date": "1914-04-17", 
+                "intensity": 97
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "LineString", 
+                "coordinates": [
+                    [
+                        56.473169184789924, 
+                        -2.954393686689972
+                    ], 
+                    [
+                        56.47663043407133, 
+                        -3.034339884480205
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "id": 8, 
+            "properties": {
+                "date": "1917-10-12"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    56.47663043407133, 
+                    -3.034339884480205
+                ]
+            }, 
+            "type": "Feature", 
+            "id": 9, 
+            "properties": {
+                "date": "1917-10-12", 
+                "intensity": 74
+            }
+        }
+    ]
+}
