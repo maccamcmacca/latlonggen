@@ -73,4 +73,4 @@ f = open("raw.json", "w")
 f.write(geojson.dumps(feat_col))
 
 f = open("formatted.json", "w")
-print(geojson.dumps(feat_col, indent=4))
+f.write(geojson.dumps(feat_col, indent=4))
