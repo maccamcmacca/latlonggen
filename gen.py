@@ -21,7 +21,7 @@ for x in range(0,51):
 
 	}
 	x = json.dumps(x)
-	with open('data.json', 'a') as outfile:
+	with open('data.json', 'wa') as outfile:
 		json.dump(x, outfile)
 	print '\n'
 
