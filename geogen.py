@@ -21,7 +21,7 @@ latitude2 = 56.468327
 longitude2 = -2.928002
 
 #Misc Vars
-setLength = 5 #51
+setLength = 30
 maxIntensity = 100
 maxYear = 1918
 minYear = 1914
@@ -54,7 +54,7 @@ def generateISODate():
 
 
 feats = []
-
+idvar = 0
 for y in range(0, len(towns)):
 
 	latitude1 = float(towns[y]["lat1"])
@@ -72,11 +72,13 @@ for y in range(0, len(towns)):
 
 		intensity = random.randint(0, maxIntensity)
 		curdate = generateISODate()
-		idvar = x*2		#use to set ID for both features
 
 		#Create LineString and Point features
-		line=Feature(geometry=LineString([(rand_lat1,rand_lon1),(rand_lat2,rand_lon2)]), id=(idvar), properties={"date": curdate})
-		point=Feature(geometry=Point((rand_lat2, rand_lon2)), id=(idvar+1), properties={"date": curdate, "intensity": intensity, "town": towns[y]["town"]})
+		line=Feature(geometry=LineString([(rand_lon1, rand_lat1),(rand_lon2, rand_lat2)]), id=(idvar), properties={"date": curdate})
+		point=Feature(geometry=Point((rand_lon2, rand_lat2)), id=(idvar+1), properties={"date": curdate, "intensity": intensity, "town": towns[y]["town"]})
+
+		#increment ID value
+		idvar = idvar + 2
 
 		#Add new features to FeatureCollection
 		feats.append(line)
